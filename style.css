@@ -86,24 +86,9 @@ p, ul{
 }
 
 .card:hover{
-    height: 500px;
+    height: 600px;
     box-shadow: 10px 10px 15px gray;
     animation-name: card-hover;
-    animation-duration: 0.5s;
+    animation-duration: 5s;
 }
 
-@keyframes card-unhover{
-    from{
-        height: 700px;
-        box-shadow: 10px 10px 15px gray;
-    }
-    to{
-        height: 600px;
-        box-shadow: 0 0 0 gray;
-    }
-}
-
-.card:not(hover){
-    animation-name: card-unhover;
-    animation-duration: 0.5s;
-} 
